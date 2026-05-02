@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>RoseTech Ltd</title>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+</head>
+<body>
+  <header>
+    <nav class="navbar">
+      <div class="logo">
+        <img class="img-logo" src="images/image.png" alt=""> RoseTech Ltd
+      </div>
+      <ul class="nav-links" id="navLinks">
+        <li><a href="index.html" class="active">Home</a></li>
+        <li><a href="about.html">About Us</a></li>
+        <li><a href="structure.html">Services</a></li>
+        <li><a href="news.html">Blog</a></li>
+        <li><a href="contact.html">Contact us</a></li>
+      </ul>
+    </nav>
+  </header>
+<div class="container-four">
+    <img style="height: 500px; filter: contrast(60%);" class="container-four-image" src="images/contact.webp" alt="container-four-image">
+    <div class="divtwo1">
+    <h2 style="margin-bottom: 20px;">CONNECT WITH US</h2>
+    <p>Follow us on our social media platforms to stay updated on our latest services, insights, and industry trends. Engage with our community and be part of the conversation.</p>
+    <button class="container-four-button">Follow us</button>
+</div>
+</div>
+<div style="margin-top: 150px;" class="divtwo">
+    <h2>Visit us</h2>
+    <p style="font-size: 17px;">We invite you to visit our office for any inquiries or consultations. Check below for our address and directions to reach us easily.</p>
+</div>
+<div class="contact-container">
+    <div class="contact-grid">
+      <!-- Left column: Form -->
+      <div class="form-col">
+        <div class="form-card">
+          <h2>Get in touch</h2>
+          <p>We’d love to hear from you. Send us a message and we’ll respond within 24 hours.</p>
+          <form id="contactForm">
+            <div class="input-group">
+              <label>Full Name</label>
+              <input type="text" name="name" placeholder="Joseph Chol" required>
+            </div>
+            <div class="input-group">
+              <label>Email Address</label>
+              <input type="email" name="email" placeholder="hello@rostech.com" required>
+            </div>
+            <div class="input-group">
+              <label>Message</label>
+              <textarea name="message" placeholder="Tell us about your project..."></textarea>
+            </div>
+            <button type="submit" class="submit-btn">Send Message →</button>
+            <p id="formFeedback" style="margin-top: 1rem; font-size:0.85rem; color:#2b6e3c;"></p>
+          </form>
+        </div>
+      </div>
+
+      <!-- Right column: Info + Map -->
+      <div class="info-col">
+        <div class="info-card">
+          <h3>Visit & Connect</h3>
+          <div class="info-detail">
+            <strong>📍 Address</strong>
+            <span>Shirkat Town<br>Juba, South Sudan</span>
+          </div>
+          <div class="info-detail">
+            <strong>📞 Phone</strong>
+            <span>+256 765 542041</span>
+          </div>
+          <div class="hours">
+            <div class="info-detail">
+              <strong>🕒 Hours</strong>
+              <span>Mon-Fri 8am–5pm<br>Sat 1pm–5pm</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Google Maps embedded -->
+        <div class="map-card">
+          <iframe 
+            src="https://maps.google.com/maps?q=123+Sunnyvale+Rd+San+Jose+California&t=&z=14&ie=UTF8&iwloc=&output=embed" 
+            allowfullscreen="" 
+            loading="lazy" 
+            referrerpolicy="no-referrer-when-downgrade">
+          </iframe>
+        </div>
+        <div style="font-size:0.7rem; text-align:right; margin-top:0.5rem; color:#94a3b8;">
+          <a href="#" style="color:#5b6e8c; text-decoration:none;">Open in Maps</a> · 
+          <a href="#" style="color:#5b6e8c; text-decoration:none;">Terms</a> · 
+          <a href="#" style="color:#5b6e8c; text-decoration:none;">Report a map error</a>
+        </div>
+      </div>
+    </div>
+  </div>
+  <footer style="margin-top: 100px;" class="footer">
+  <div class="logo">
+    <img src="images/image.png" alt="logo">
+    <span>RoseTech Ltd</span>
+  </div>
+  <div class="copyright">
+    © 2026 proudly built by MABO SOLUTIONS
+  </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
